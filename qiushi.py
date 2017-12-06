@@ -1,4 +1,5 @@
 import requests
+import numpy as np
 from bs4 import BeautifulSoup
 
 content = requests.get("https://www.qiushibaike.com").content
